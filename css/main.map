@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_base.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_normalize.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/layout/_nav.scss"
+	],
+	"sourcesContent": [
+		"@import \"base/base\";\r\n@import \"base/variables\";\r\n@import \"base/normalize\";\r\n@import \"layout/header\";\r\n@import \"layout/footer\";\r\n@import \"layout/nav\";\r\n",
+		"/*\r\n\tBase styles\r\n*/\r\n\r\nbody{\r\n\tfont-family: \"hel\";\r\n}\r\n\r\nh1{\r\n\tfont-size:40px;\r\n}",
+		"//\r\n// Variables\r\n// --------------------------------------------------\r\n\r\n$gray-base:              #000 !default;\r\n$reset-value:             0;",
+		"h1{\r\n\tmargin-top:$reset-value;\r\n}",
+		"header {\r\n\tbackground:#000; \r\n}\r\n\r\n@media screen and (width:991px) {\r\n  .sidebar {\r\n    width: 500px;\r\n  }\r\n}",
+		"",
+		""
+	],
+	"mappings": "ACAA;;EAEE;;AAEF,AAAA,IAAI,CAAA;EACH,WAAW,EAAE,KAAM;CACnB;;;AAED,AAAA,EAAE,CAAA;EACD,SAAS,EAAC,IAAK;CACf;;;AEVD,AAAA,EAAE,CAAA;EACD,UAAU,EDIe,CAAC;CCH1B;;;ACFD,AAAA,MAAM,CAAC;EACN,UAAU,EAAC,IAAK;CAChB;;AAED,MAAM,CAAN,MAAM,MAAM,KAAK,EAAE,KAAK;;EACtB,AAAA,QAAQ,CAAC;IACP,KAAK,EAAE,KAAM;GACd",
+	"names": []
+}

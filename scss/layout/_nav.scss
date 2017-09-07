@@ -1,0 +1,66 @@
+.site-header {
+	.navbar-default {
+		background-color: #000;
+		border-color: #000;
+		
+		.navbar-toggle{
+			margin:20px;
+		}
+	}
+	.navbar {
+		border-radius: 0px;
+		min-height: 74px;
+		margin-bottom: 0;
+		border: inherit;
+	}
+}
+
+.site-tabs {
+	background-color: #f8f8f8;
+	
+	.nav-tabs {
+		border-bottom: inherit;	
+	
+		li {
+			&.active a{
+				color: #18a8e1;
+				background: none;
+				border: inherit;
+				font-weight:700;
+			}
+
+			&.active a svg path, &.active a svg rect{
+				fill: #18a8e1;
+			}
+
+			a {
+				padding: 25px 65px 15px;
+				font-size: 18px;
+				color:#999;
+				margin:0;
+				border:0; 
+
+				&:hover, &:focus, &:active{
+					color: #18a8e1;
+					background: #f9f9f9;
+					border: inherit;
+				}
+
+				svg{
+					height:30px;
+					vertical-align: middle;
+				}
+
+				span{
+					vertical-align: middle;
+				}
+				
+				&:hover svg path, &:hover svg rect{
+					fill: #18a8e1;
+				}
+			}
+		}
+
+	}
+
+}

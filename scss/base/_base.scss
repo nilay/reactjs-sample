@@ -1,0 +1,22 @@
+/*
+	Base styles
+*/
+body{
+	font-family: 'Roboto', sans-serif;
+	color:	$gray-base;
+}
+
+.nav-inline{
+	display:inline-block;
+	li{
+		display:inline-block;
+	}
+}
+
+.container-fluid{
+	&.max-width{
+		max-width:1550px;
+	}
+}
+
+

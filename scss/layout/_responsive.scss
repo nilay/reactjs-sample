@@ -1,0 +1,84 @@
+/*
+    Holds all responsive media queries
+*/
+@media screen and (max-width:1200px) {
+  .site-tabs{
+    .nav-tabs{
+      li{
+        a{
+          padding:10px;
+        }
+      }
+    }
+  } 
+}
+
+@media screen and (max-width:991px) {
+  .sidebar {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .site-tabs{
+    .nav-tabs{
+      li{
+        float: left;
+        width:25%;
+        a{
+          padding:10px;
+          span{
+            display:block;
+          }
+        }
+      }
+    }
+  }  
+
+  .middle-links {
+    padding:20px 0;
+    .navbar{
+      margin:0;
+      padding:0;
+      li{
+        float:none;
+        display:block;
+        a{
+          padding:5px 0;
+
+          &:after, &:before{
+            display:none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+  .pricing-table-main{
+    .price-bucket{
+      margin:20px 0;
+    }
+  }
+  div.paragraph-text {
+    p{
+      padding:20px 0;
+      margin:0;
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .site-tabs{
+    .nav-tabs{
+      li{
+        a{        
+          span{
+            font-size:13px;
+          }
+        }
+      }
+    }
+  }  
+}
