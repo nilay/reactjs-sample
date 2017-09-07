@@ -1,6 +1,12 @@
 import React from 'react';
 
 export default class Offers extends React.Component{
+
+	handleClick() {
+		$('.pricing-table .listing').show()
+  }
+
+
 	render(){
 		return (
 
@@ -89,7 +95,7 @@ export default class Offers extends React.Component{
 							</div>
 						</div>
 						<div className="col-sm-12 text-center pricing-click-link">
-							<a className="btn btn-primary" href="javascript:void(0);">COMPARE BENEFITS</a>
+							<a className="btn btn-primary" href="javascript:void(0);" onClick={this.handleClick}>COMPARE BENEFITS</a>
 						</div>
 					</div>
 				</div>
